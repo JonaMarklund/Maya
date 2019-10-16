@@ -1,0 +1,80 @@
+//Maya Preference 2018 (Release 1)
+//
+//
+
+//
+// The hotkey set
+//
+hotkeySet -source "Maya_Default" -current JonaCustomMayaHotkeys2018;
+//
+// The hotkey contexts and hotkeys
+//
+hotkey -keyShortcut "3" -alt -name ("SelectVertexFaceMaskNameCommand");
+hotkey -keyShortcut "F11" -name ("HighQualityDisplayNameCommand");
+hotkey -keyShortcut "g" -ctl -alt -name ("MergeToCenterNameCommand");
+hotkey -keyShortcut "F11" -ctl -name ("");
+hotkey -keyShortcut "3" -ctl -name ("ConvertSelectionToFacesNameCommand");
+hotkey -keyShortcut "4" -ctl -name ("");
+hotkey -keyShortcut "d" -releaseName ("EnterEditModeReleaseNameCommand");
+hotkey -keyShortcut "d" -name ("EnterEditModePressNameCommand");
+hotkey -keyShortcut "r" -ctl -sht -name ("SelectHierarchyNameCommand");
+hotkey -keyShortcut "2" -name ("SelectEdgeMaskNameCommand");
+hotkey -keyShortcut "6" -name ("SelectUVMaskNameCommand");
+hotkey -keyShortcut "F10" -name ("MediumQualityDisplayNameCommand");
+hotkey -keyShortcut "F9" -ctl -name ("");
+hotkey -keyShortcut "w" -alt -name ("");
+hotkey -keyShortcut "w" -ctl -name ("");
+hotkey -keyShortcut "q" -alt -name ("ToggleIsolateSelectNameCommand");
+hotkey -keyShortcut "q" -ctl -name ("");
+hotkey -keyShortcut "q" -alt -releaseName ("");
+hotkey -keyShortcut "q" -ctl -releaseName ("");
+hotkey -keyShortcut "1" -name ("SelectVertexMaskNameCommand");
+hotkey -keyShortcut "1" -ctl -name ("ConvertSelectionToVerticesNameCommand");
+hotkey -keyShortcut "o" -name ("OutlinerWindowNameCommand");
+hotkey -keyShortcut "e" -ctl -name ("PolygonCollapseNameCommand");
+hotkey -keyShortcut "o" -releaseName ("");
+hotkey -keyShortcut "F12" -name ("");
+hotkey -keyShortcut "!" -ctl -name ("ThunderCloud_GMH_command");
+hotkey -keyShortcut "F9" -name ("LowQualityDisplayNameCommand");
+hotkey -keyShortcut "F10" -ctl -name ("");
+hotkey -keyShortcut "F7" -name ("DisplayShadedNameCommand");
+hotkey -keyShortcut "t" -name ("ConvertSelectionToContainedEdgesNameCommand");
+hotkey -keyShortcut "m" -name ("HypershadeWindowNameCommand");
+hotkey -keyShortcut "m" -releaseName ("");
+hotkey -keyShortcut "F8" -name ("DisplayWireframeNameCommand");
+hotkey -keyShortcut "F12" -ctl -name ("");
+hotkey -keyShortcut "F9" -alt -name ("");
+hotkey -keyShortcut "t" -ctl -sht -name ("");
+hotkey -keyShortcut "6" -alt -name ("SelectMeshUVShellNameCommand");
+hotkey -keyShortcut "F12" -alt -name ("");
+hotkey -keyShortcut "6" -ctl -name ("ConvertSelectionToUVsNameCommand");
+hotkey -keyShortcut "5" -name ("SelectToggleModeNameCommand");
+hotkey -keyShortcut "1" -ctl -name ("ConvertSelectionToVertexsNameCommand");
+hotkey -keyShortcut "g" -alt -name ("");
+hotkey -keyShortcut "3" -name ("SelectFacetMaskNameCommand");
+hotkey -keyShortcut "e" -ctl -sht -name ("ConnectComponentsNameCommand");
+hotkey -keyShortcut "2" -ctl -name ("ConvertSelectionToEdgesNameCommand");
+hotkey -keyShortcut "4" -name ("SelectMultiComponentMaskNameCommand");
+hotkeyCtx -type "Editor" -addClient "graphEditor";
+hotkey -keyShortcut "," -name ("RemoveInbetweenNameCommand");
+hotkey -keyShortcut "." -name ("AddInbetweenNameCommand");
+hotkey -keyShortcut "<" -name ("") -ctxClient "graphEditor";
+hotkey -keyShortcut ";" -name ("") -ctxClient "graphEditor";
+hotkey -keyShortcut ":" -name ("") -ctxClient "graphEditor";
+hotkeyCtx -type "Editor" -addClient "cteEditor";
+hotkeyCtx -type "Editor" -addClient "nodeEditorPanel";
+hotkeyCtx -type "Editor" -addClient "hyperGraphPanel";
+hotkeyCtx -type "Editor" -addClient "posePanel";
+hotkeyCtx -type "Editor" -addClient "outlinerPanel";
+hotkeyCtx -type "Editor" -addClient "hyperShadePanel";
+hotkeyCtx -type "Editor" -addClient "shapePanel";
+hotkeyCtx -type "Editor" -addClient "timeEditorPanel";
+hotkeyCtx -type "Editor" -addClient "profilerPanel";
+hotkeyCtx -type "Editor" -addClient "polyTexturePlacementPanel";
+hotkeyCtx -type "Tool" -addClient "polyCutUV";
+hotkeyCtx -type "Tool" -addClient "texSculptCacheContext";
+hotkeyCtx -type "Tool" -addClient "SymmetrizeUVBrush";
+hotkeyCtx -type "Tool" -addClient "texCutContext";
+hotkeyCtx -type "Tool" -addClient "xgmIGBrush";
+hotkeyCtx -type "Tool" -addClient "Unfold3DBrush";
+hotkeyCtx -type "Tool" -addClient "sculptMeshCache";
