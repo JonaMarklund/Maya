@@ -1,0 +1,166 @@
+//Maya Preference 2018 (Release 1)
+//
+//
+
+nameCommand
+	-annotation "SelectVertexMaskNameCommand"
+	-sourceType "mel"
+	-command ("SelectVertexMask")
+	SelectVertexMaskNameCommand;
+
+nameCommand
+	-annotation "LowQualityDisplayNameCommand"
+	-sourceType "mel"
+	-command ("LowQualityDisplay")
+	LowQualityDisplayNameCommand;
+
+nameCommand
+	-annotation "MediumQualityDisplayNameCommand"
+	-sourceType "mel"
+	-command ("MediumQualityDisplay")
+	MediumQualityDisplayNameCommand;
+
+nameCommand
+	-annotation "HighQualityDisplayNameCommand"
+	-sourceType "mel"
+	-command ("HighQualityDisplay")
+	HighQualityDisplayNameCommand;
+
+nameCommand
+	-annotation "EnterEditModePressNameCommand"
+	-sourceType "mel"
+	-command ("EnterEditModePress")
+	EnterEditModePressNameCommand;
+
+nameCommand
+	-annotation "EnterEditModeReleaseNameCommand"
+	-sourceType "mel"
+	-command ("EnterEditModeRelease")
+	EnterEditModeReleaseNameCommand;
+
+nameCommand
+	-annotation "SelectEdgeMaskNameCommand"
+	-sourceType "mel"
+	-command ("SelectEdgeMask")
+	SelectEdgeMaskNameCommand;
+
+nameCommand
+	-annotation "SelectFacetMaskNameCommand"
+	-sourceType "mel"
+	-command ("SelectFacetMask")
+	SelectFacetMaskNameCommand;
+
+nameCommand
+	-annotation "DisplayWireframeNameCommand"
+	-sourceType "mel"
+	-command ("DisplayWireframe")
+	DisplayWireframeNameCommand;
+
+nameCommand
+	-annotation "SelectToggleModeNameCommand"
+	-sourceType "mel"
+	-command ("SelectToggleMode")
+	SelectToggleModeNameCommand;
+
+nameCommand
+	-annotation "SelectMultiComponentMaskNameCommand"
+	-sourceType "mel"
+	-command ("SelectMultiComponentMask")
+	SelectMultiComponentMaskNameCommand;
+
+nameCommand
+	-annotation "DisplayShadedNameCommand"
+	-sourceType "mel"
+	-command ("DisplayShaded")
+	DisplayShadedNameCommand;
+
+nameCommand
+	-annotation "ToggleIsolateSelectNameCommand"
+	-sourceType "mel"
+	-command ("ToggleIsolateSelect")
+	ToggleIsolateSelectNameCommand;
+
+nameCommand
+	-annotation "OutlinerWindowNameCommand"
+	-sourceType "mel"
+	-command ("OutlinerWindow")
+	OutlinerWindowNameCommand;
+
+nameCommand
+	-annotation "ThunderCloud_GMH2_Hotkey"
+	-sourceType "mel"
+	-command ("source \"ThunderCloud/GMH2_6/GMH2_starter.mel\";")
+	ThunderCloud_GMH_command;
+
+nameCommand
+	-annotation "HypershadeWindowNameCommand"
+	-sourceType "mel"
+	-command ("HypershadeWindow")
+	HypershadeWindowNameCommand;
+
+nameCommand
+	-annotation "MergeToCenterNameCommand"
+	-sourceType "mel"
+	-command ("MergeToCenter")
+	MergeToCenterNameCommand;
+
+nameCommand
+	-annotation "ConnectComponentsNameCommand"
+	-sourceType "mel"
+	-command ("ConnectComponents")
+	ConnectComponentsNameCommand;
+
+nameCommand
+	-annotation "PolygonCollapseNameCommand"
+	-sourceType "mel"
+	-command ("PolygonCollapse")
+	PolygonCollapseNameCommand;
+
+nameCommand
+	-annotation "SelectHierarchyNameCommand"
+	-sourceType "mel"
+	-command ("SelectHierarchy")
+	SelectHierarchyNameCommand;
+
+nameCommand
+	-annotation "AddInbetweenNameCommand"
+	-sourceType "mel"
+	-command ("AddInbetween")
+	AddInbetweenNameCommand;
+
+nameCommand
+	-annotation "RemoveInbetweenNameCommand"
+	-sourceType "mel"
+	-command ("RemoveInbetween")
+	RemoveInbetweenNameCommand;
+
+nameCommand
+	-annotation "SelectUVMaskNameCommand"
+	-sourceType "mel"
+	-command ("SelectUVMask")
+	SelectUVMaskNameCommand;
+
+nameCommand
+	-annotation "SelectMeshUVShellNameCommand"
+	-sourceType "mel"
+	-command ("SelectMeshUVShell")
+	SelectMeshUVShellNameCommand;
+
+nameCommand
+	-annotation "SelectVertexFaceMaskNameCommand"
+	-sourceType "mel"
+	-command ("SelectVertexFaceMask")
+	SelectVertexFaceMaskNameCommand;
+
+nameCommand
+	-annotation "ConvertSelectionToVertexFacesNameCommand"
+	-sourceType "mel"
+	-command ("ConvertSelectionToVertexFaces")
+	ConvertSelectionToVertexFacesNameCommand;
+
+nameCommand
+	-annotation "ConvertSelectionToContainedEdgesNameCommand"
+	-sourceType "mel"
+	-command ("ConvertSelectionToContainedEdges")
+	ConvertSelectionToContainedEdgesNameCommand;
+
